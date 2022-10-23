@@ -1,0 +1,23 @@
+server:
+  port: 5000
+
+---
+environment: integration
+server:
+  port: 5000
+---
+environment: test
+authCode:
+  value: "xyz458"
+server:
+  port: 4500
+---
+environment: qa
+server:
+  port: 5000
+---
+environment: prod
+devName:
+  value: "Samuele"
+server:
+  port: 4500
